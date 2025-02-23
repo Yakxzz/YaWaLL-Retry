@@ -119,7 +119,7 @@ jobs:
           pip install --upgrade pip
           pip install buildozer cython==0.29.36 git+https://github.com/kivy/plyer.git
           pip install kivy==2.3.0
-          pip install kivymd==2.0.0
+          pip install https://github.com/kivymd/KivyMD/archive/master.zip
           pip install pillow --upgrade
 
 
